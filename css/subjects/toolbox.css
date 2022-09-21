@@ -1,0 +1,104 @@
+.toolbox-subject
+{
+    /* Text */
+    font-size: 40px;
+}
+
+.expierience-toolbox, .learning-toolbox
+{
+    /* Background */
+    background-color: transparent;
+
+    /* Position */
+    vertical-align: middle;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    width: 50%;
+
+    /* Border */
+    box-shadow: 4px 6px rgb(29, 29, 29);
+    border-color: rgb(54, 54, 54);
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 5px;
+
+    /* Text */
+    font-size: 25px;
+
+}
+.expierience-toolbox p, .learning-toolbox p
+{
+    /* Position */
+    vertical-align: middle;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+
+    /* Border */
+    border-radius: 15px;
+    border-style: solid;
+}
+.expierience-toolbox p
+{
+    /* Background */
+    background-color: rgb(0, 164, 30);
+
+    /* Border */
+    box-shadow: 2px 4px rgb(0, 79, 17);
+    border-color: rgb(0, 91, 15);
+}
+.learning-toolbox p
+{
+    /* Background */
+    background-color: rgb(0, 137, 164);
+
+    /* Border */
+    box-shadow: 2px 4px rgb(0, 75, 79);
+    border-color: rgb(0, 85, 91);
+}
+
+@media only screen and (max-width: 600px)
+{
+    .toolbox-subject
+    {
+        /* Text */
+        font-size: 25px;
+    }
+
+    .expierience-toolbox, .learning-toolbox
+    {
+        /* Position */
+        padding: 5px;
+        margin: 5px;
+        width: 80%;
+
+        /* Border */
+        box-shadow: 2px 3px rgb(29, 29, 29);
+        border-radius: 5px;
+        border-width: 3px;
+
+        /* Text */
+        font-size: 15px;
+    }
+    .expierience-toolbox p, .learning-toolbox p
+    {
+        /* Position */
+        padding: 5px;
+        margin: 5px;
+
+        /* Border */
+        border-radius: 5px;
+    }
+    .expierience-toolbox p
+    {
+        /* Border */
+        box-shadow: 2px 3px rgb(0, 79, 17);
+    }
+    
+    .learning-toolbox p
+    {
+        /* Border */
+        box-shadow: 2px 3px rgb(0, 75, 79);
+    }
+}

@@ -1,0 +1,100 @@
+.logo-bar-container
+{
+    /* Background */
+    background-color: rgb(0, 0, 0, 0.3);
+
+    /* Position */
+    position: fixed;
+    left: 15%;
+    top: 0%;
+}
+.logo-bar-container p
+{
+    /* Position */
+    padding: 20px;
+    margin: auto;
+
+    /* Text */
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+.top-navigation-bar
+{
+    /* Background */
+    background-color: rgb(0, 0, 0, 0.3);
+
+    /* Position */
+    position: fixed;
+    padding: 1.5vw;
+    left: 65%;
+    top: 0%;
+}
+.top-navigation-bar a
+{
+    /* Position */
+    padding: 1.5vw;
+
+    /* Text */
+    font-size: 1.5vw;
+}
+.top-navigation-bar a:hover
+{
+    /* Overall */
+    opacity: 0.7;
+}
+
+.bottom-bar-container
+{
+    /* Background */
+    background-color: rgb(31, 33, 40);
+
+    /* Position */
+    padding: 5px;
+
+    /* Text */
+    word-spacing: 2px;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 600px)
+{   
+    .logo-bar-container
+    {
+        /* Position */
+        left: 5%;
+        top: 0%;
+    }
+    .logo-bar-container p
+    {
+        /* Text */
+        letter-spacing: 4px;
+        font-size: 20px;
+    }
+
+    .top-navigation-bar
+    {
+        /* Position */
+        padding: 10px;
+        left: 35%;
+        top: 0%;
+    }
+    .top-navigation-bar a
+    {
+        /* Position */
+        padding: 10px;
+
+        /* Text */
+        font-size: 15px;
+    }
+
+    .bottom-bar-container
+    {
+        /* Position */
+        padding: 4px;
+
+        /* Text */
+        word-spacing: 2px;
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,60 @@
+.image-container
+{
+    /* Position */
+    vertical-align: middle;
+    display: inline-block;
+    margin: 25px;
+    width: 250px;
+
+    /* Border */
+    box-shadow: 4px 6px rgb(29, 29, 29);
+    border-radius: 20px;
+    border-style: solid;
+
+    /* Background */
+    background-color: rgb(77, 77, 77);
+}
+.image-container p
+{
+    /* Position */
+    margin: 10px;
+
+    /* Text */
+    font-size: 20px;
+}
+
+.image
+{
+    /* Position */
+    height: auto;
+    width: 100%;
+
+    /* Border */
+    border-color: white;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 600px)
+{
+    .image-container
+    {
+        /* Position */
+        margin: 15px;
+        width: 40%;
+
+        /* Border */
+        box-shadow: 4px 6px rgb(29, 29, 29);
+        border-radius: 10px;
+    }
+    .image-container p
+    {
+        /* Position */
+        padding: 4px;
+    }
+
+    .image
+    {
+        /* Border */
+        border-radius: 10px;
+    }
+}

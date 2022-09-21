@@ -1,0 +1,71 @@
+.home-container
+{
+    /* Background */
+    background-image: url('../img/Background.jpg');
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+
+    /* Position */
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.header-container
+{
+    /* Position */
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50vw;
+    top: 45vh;
+}
+.header-container p
+{
+    /* Text */
+    letter-spacing: 20px;
+    font-size: 80px;
+}
+
+.info-container
+{
+    /* Position */
+    width: 100%;
+}
+.info-header
+{
+    /* Text */
+    letter-spacing: 10px;
+    font-size: 60px;
+}
+.info-text
+{
+    /* Text */
+    font-family:open sans,sans-serif;
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 600px)
+{
+    .header-container p
+    {
+        /* Text */
+        letter-spacing: 10px;
+        font-size: 50px;
+    }
+
+    .info-header
+    {
+        /* Text */
+        letter-spacing: 6px;
+        font-size: 40px;
+    }
+    .info-text
+    {
+        /* Position */
+        margin: 40px;
+
+        /* Text */
+        font-size: 20px;
+    }
+}

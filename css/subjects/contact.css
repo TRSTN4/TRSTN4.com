@@ -1,0 +1,49 @@
+.email-link-margin
+{
+    /* Position */
+    margin: 100px;
+}
+
+.email-link
+{
+    /* Background */
+    background-color: rgb(98, 98, 98);
+
+    /* Position */
+    padding: 25px;
+
+    /* Border */
+    box-shadow: 4px 6px rgb(48, 48, 48);
+    border-color: rgb(46, 46, 46);
+    border-radius: 15px;
+
+    /* Text */
+    font-size: 30px;
+}
+.email-link:hover
+{
+    /* Overall */
+    opacity: 0.7;
+}
+
+@media only screen and (max-width: 600px)
+{
+    .email-link-margin
+    {
+        /* Position */
+        margin: 50px;
+    }
+
+    .email-link
+    {
+        /* Position */
+        padding: 15px;
+
+        /* Border */
+        border-radius: 10px;
+        box-shadow: 2px 3px rgb(48, 48, 48);
+
+        /* Text */
+        font-size: 15px;
+    }
+}
